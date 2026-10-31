@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .titulli, .nentitulli, .kutia {
+            text-align: center;
+        }
+
+        .titulli, .nentitulli {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .learn-more-button {
+            background-color: #0076DF;
+            border: none;
+            padding: 7px 15px;
+            border-radius: 20px;
+            color: white;
+        }
+
+        .buy-button{
+            background-color: transparent;
+            border: 1px solid #0076DF;
+            border-radius: 20px;
+            color: #0076DF;
+            padding: 7px 15px;
+        }
+
+        .section2{
+            background: url(iphone-18-pro.png);
+            height: 550px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .section1 {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            height: 550px;
+            background: url(iphone-duo.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        body {
+            margin: 0px;
+        }
+
+        .navigation{
+            padding-top: 35px;
+            padding-bottom: 35px;
+        }
+
+        .navigation a {
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 18px;
+            color: black;
+            transition: 0.2s;
+        }
+
+        .navigation a:hover {
+            color: blue;
+        }
+
+        :root {
+            scroll-behavior: smooth;
+        }
+
+        .apple-logo {
+            width: 28px;
+        }
+
+        .apple-logo-small{
+            width: 14px;
+        }
+
+        .section3 {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            height: 550px;
+            background: url(apple-card.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="navigation">
+        <a href="#section1">iPhone Duo</a>
+        <a href="#section2">iPhone 18 Pro</a>
+        <a href="#section3">
+            <img src="apple-logo.svg" alt="" class="apple-logo-small">
+            Card
+        </a>
+
+    </div>
+
+     <div class="section1" id="section1">
+
+        <h1 class="titulli" style="color: black;">iPhone Duo</h1>
+        <h3 class="nentitulli" style="color: black;">Hello, Hello.</h3>
+
+        <p class="kutia">
+            <button class="learn-more-button">Learn more</button>
+            <button class="buy-button">Buy</button>
+        </p>
+    
+    </div>
+
+    
+
+    <div class="section2" id="section2">
+
+        <h1 class="titulli">iPhone 18 Pro</h1>
+        <h3 class="nentitulli">Pro further.</h3>
+
+        <p class="kutia">
+            <button class="learn-more-button">Learn more</button>
+            <button class="buy-button">Buy</button>
+        </p>
+    
+    </div>
+
+
+    <div class="section3" id="section3">
+
+        <h1 class="titulli" style="color: black;">
+            <img src="apple-logo.svg" alt="" class="apple-logo">
+            Card
+        </h1>
+
+        <h3 class="nentitulli" style="color: black;">Get up to 3% Daily Cash back with every purchase.</h3>
+
+        <p class="kutia">
+            <button class="learn-more-button">Learn more</button>
+            <button class="buy-button">Buy</button>
+        </p>
+    
+    </div>
+
+
+    
+</body>
+</html>

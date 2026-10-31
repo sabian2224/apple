@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .apple-logo {
+            width: 20px;
+            vertical-align:bottom;
+        }
+
+        .nav-item{
+            text-decoration: none;
+            color: black;
+            margin-left: 5px;
+            margin-right: 5px;
+            font-size: 18px;
+        }
+
+        .navigation-bar{
+            background-color: antiquewhite;
+            padding: 10px;
+        }
+
+        .section1{
+            background-image: url(mackbook-pro.jpg);
+            height: 600px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .section1 h1, .section1 h2, .section1 p {
+            text-align: center;
+            color: white;
+        }
+
+        .learn-more-button {
+            background-color: rgb(0, 119, 255);
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+
+        .pre-order-button {
+            background-color: transparent;
+            color: rgb(0, 119, 255);
+            padding: 12px;
+            border-radius: 30px;
+            border-color: rgb(0, 119, 255);
+            border-style: solid;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navigation-bar">
+        <!--Anchor text-->
+        <a href="apple.html" class="nav-item">
+            <img src="apple-logo.svg" class="apple-logo">
+        </a>
+        <a href="store.html" class="nav-item">Store</a>
+        <a href="ipad.html" class="nav-item">iPad</a>
+        <a href="iphone.html" class="nav-item">iPhone</a> 
+    </div>
+
+    <div class="section1">
+        <h1>MacBook Pro</h1>
+        <h2>PROLED XDR Display</h2>
+        <p>Available starting 11.6</p>
+
+        <div style="text-align: center;">
+            <button class="learn-more-button">Learn more</button> 
+            <button class="pre-order-button">Pre-order</button>
+        </div>
+       
+    </div>
+    
+</body>
+</html>
