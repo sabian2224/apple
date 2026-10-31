@@ -6,6 +6,12 @@
     <title>Document</title>
 
     <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: black;
+        }
+
         .apple-logo {
             width: 20px;
             vertical-align:bottom;
@@ -13,14 +19,14 @@
 
         .nav-item{
             text-decoration: none;
-            color: black;
+            color: white;
             margin-left: 5px;
             margin-right: 5px;
             font-size: 18px;
         }
 
         .navigation-bar{
-            background-color: antiquewhite;
+            background-color: rgb(29 29 31 / 80%);
             padding: 10px;
         }
 
@@ -37,6 +43,36 @@
         .section1 h1, .section1 h2, .section1 p {
             text-align: center;
             color: white;
+        }
+
+        .section2{
+             background-image: url(hero_macbook_pro_m6_preorder__djr4reqm3ziq_large_2x.jpg);
+            height: 600px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .section2 h1, .section2 h2, .section2 p {
+            text-align: center;
+            color: white;
+        }
+
+        .section3 {
+             background-image: url(iphone-duo.jpg);
+            height: 600px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+         .section3 h1, .section3 h2, .section3 p {
+            text-align: center;
+            color: black;
         }
 
         .learn-more-button {
@@ -57,6 +93,12 @@
             border-style: solid;
 
         }
+
+
+        :root{
+            scroll-behavior: smooth;
+        }
+
     </style>
 </head>
 <body>
@@ -64,16 +106,15 @@
     <div class="navigation-bar">
         <!--Anchor text-->
         <a href="apple.html" class="nav-item">
-            <img src="apple-logo.svg" class="apple-logo">
+            <img src="Apple_logo_white.svg.webp" class="apple-logo">
         </a>
-        <a href="store.html" class="nav-item">Store</a>
-        <a href="ipad.html" class="nav-item">iPad</a>
-        <a href="iphone.html" class="nav-item">iPhone</a> 
+        <a href="#section2" class="nav-item">Macbook</a>
+        <a href="#section3" class="nav-item">iPhone Duo</a> 
     </div>
 
-    <div class="section1">
+    <div class="section1" id="section1">
         <h1>MacBook Pro</h1>
-        <h2>PROLED XDR Display</h2>
+        <h2 class="gradient-text">PROLED XDR Display</h2>
         <p>Available starting 11.6</p>
 
         <div style="text-align: center;">
@@ -82,6 +123,34 @@
         </div>
        
     </div>
+
+
+     <div class="section2" id="section2">
+        <h1>MacBook Pro</h1>
+        <h2 class="gradient-text">PROLED XDR Display</h2>
+        <p>Available starting 11.6</p>
+
+        <div style="text-align: center;">
+            <button class="learn-more-button">Learn more</button> 
+            <button class="pre-order-button">Pre-order</button>
+        </div>
+       
+    </div>
+
+
+    
+     <div class="section3" id="section3">
+        <h1>MacBook Pro</h1>
+        <h2 class="gradient-text">PROLED XDR Display</h2>
+        <p>Available starting 11.6</p>
+
+        <div style="text-align: center;">
+            <button class="learn-more-button">Learn more</button> 
+            <button class="pre-order-button">Pre-order</button>
+        </div>
+       
+    </div>
+
     
 </body>
 </html>
